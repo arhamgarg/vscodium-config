@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+q",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "alt+x",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "alt+j",
+    "command": "java.debug.runJavaFile"
+  },
+  {
+    "key": "alt+s",
+    "command": "fiveServer.start",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+e",
+    "command": "fiveServer.close",
+    "when": "editorTextFocus"
+  }
+]
