@@ -20,7 +20,6 @@
     "source.removeUnusedImports": "always",
     "source.sortImports": "always"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.formatOnPaste": true,
