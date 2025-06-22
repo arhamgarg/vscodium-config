@@ -32,6 +32,7 @@
     "strings": "on"
   },
   "editor.tabCompletion": "on",
+  "explorer.confirmDelete": false,
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "search.smartCase": false,
