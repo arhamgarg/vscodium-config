@@ -8,7 +8,6 @@
   "update.mode": "manual",
   "update.showReleaseNotes": false,
   "telemetry.telemetryLevel": "off",
-  "json.schemaDownload.enable": false,
   "telemetry.feedback.enabled": false,
 
   // Editor
@@ -32,6 +31,7 @@
   },
   "editor.tabCompletion": "on",
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "search.smartCase": false,
@@ -73,5 +73,28 @@
   // "python.analysis.autoImportCompletions": true,
   // "python.analysis.completeFunctionParens": true,
   "python.experiments.enabled": false,
-  "python.experiments.optOutFrom": ["All"]
+  "python.experiments.optOutFrom": ["All"],
+
+  // Prettier
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
