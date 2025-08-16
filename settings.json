@@ -69,9 +69,9 @@
   "fiveServer.highlight": true,
   "fiveServer.openTerminal": false,
   "path-intellisense.showHiddenFiles": true,
-  // "python.analysis.autoFormatStrings": true,
-  // "python.analysis.autoImportCompletions": true,
-  // "python.analysis.completeFunctionParens": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
   "python.experiments.enabled": false,
   "python.experiments.optOutFrom": ["All"],
 
@@ -95,6 +95,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
